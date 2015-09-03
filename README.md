@@ -2,7 +2,7 @@
 
 ## install
 
-- `git clone --recursive git://github.com/danielcbaldwin/dotfiles ~/.dotfiles`
+- `git clone --recursive git://github.com/joshuamorris3/dotfiles ~/.dotfiles`
 - `cd ~/.dotfiles`
 - `./setup.sh`
 
