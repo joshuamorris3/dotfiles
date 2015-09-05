@@ -6,6 +6,7 @@ alias ll='ls -al'
 alias l='ls -a'
 alias l1='ls -1'
 alias ldu='du -cks * | sort -rn | head -15' # Lists the size of all the folders
+alias lt='ls -alrt'
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
