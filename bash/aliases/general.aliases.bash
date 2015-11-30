@@ -81,3 +81,6 @@ alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.ar
 for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
   alias "$method"="lwp-request -m '$method'"
 done
+
+# Toggle the touch pad off then on. Fixes a current problem with chrome when the touchpad single tap grabs the screen
+alias tt='synclient TouchpadOff=1 && synclient TouchpadOff=0'
