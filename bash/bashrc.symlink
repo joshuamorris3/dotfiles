@@ -24,3 +24,7 @@ export DOTFILES=$HOME/.dotfiles
 export BASH_THEME="daniel"
 
 source $DOTFILES/bash/setup.sh
+[[ -s "/home/ubuntu/.gvm/scripts/gvm" ]] && source "/home/ubuntu/.gvm/scripts/gvm"
+export PATH="$HOME/.rbenv/bin:$PATH"
+
+export PATH="/usr/local/texlive/2015/bin/x86_64-linux:$PATH"
