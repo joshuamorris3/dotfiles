@@ -28,3 +28,20 @@ source $DOTFILES/bash/setup.sh
 export PATH="$HOME/.rbenv/bin:$PATH"
 
 export PATH="/usr/local/texlive/2015/bin/x86_64-linux:$PATH"
+
+export PATH="/usr/local/terraform:$PATH"
+
+export PATH="/usr/local/caddy:$PATH"
+
+export NVM_DIR="/home/josh/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/usr/local/google-cloud-sdk/path.bash.inc' ]; then source '/usr/local/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/usr/local/google-cloud-sdk/completion.bash.inc' ]; then source '/usr/local/google-cloud-sdk/completion.bash.inc'; fi
+export GOROOT=/usr/lib/go
+
+export GOPATH=$HOME/Projects/go
+export PATH="$GOPATH/bin:$PATH"
