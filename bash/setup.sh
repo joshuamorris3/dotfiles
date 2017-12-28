@@ -11,7 +11,7 @@ fi
 export TERM=xterm-256color
 
 # add dotfiles bin
-export PATH="$PATH:$DOTFILES/bin"
+# export PATH="$PATH:$DOTFILES/bin"
 
 # Load colors first so they can be use in base theme
 source "${DOTFILES}/bash/themes/colors.theme.bash"
