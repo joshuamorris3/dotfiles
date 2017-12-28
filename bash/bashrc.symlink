@@ -31,7 +31,7 @@ export PATH="/usr/local/terraform:$PATH"
 
 export PATH="/usr/local/caddy:$PATH"
 
-export NVM_DIR="/home/josh/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # The next line updates PATH for the Google Cloud SDK.
@@ -41,5 +41,6 @@ if [ -f '/usr/local/google-cloud-sdk/path.bash.inc' ]; then source '/usr/local/g
 if [ -f '/usr/local/google-cloud-sdk/completion.bash.inc' ]; then source '/usr/local/google-cloud-sdk/completion.bash.inc'; fi
 export GOROOT=/usr/lib/go
 
-export GOPATH=$HOME/Projects/go
+export GOPATH=$HOME/development/go
 export PATH="$GOPATH/bin:$PATH"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
