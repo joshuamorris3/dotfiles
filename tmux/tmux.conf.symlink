@@ -7,7 +7,7 @@ set -g default-terminal "screen-256color"
 # set scrollback history to 100000 (100k)
 set -g history-limit 100000
 
-# set Ctrl-a as the default prefix key combination
+# set Ctrl-f as the default prefix key combination
 # and unbind C-b to free it up
 # set -g prefix C-a
 set -g prefix C-f
@@ -93,3 +93,11 @@ set -g status-left '#[fg=colour235,bg=colour252,bold] ❐ #S #[fg=colour252,bg=c
 set -g window-status-format "#[fg=white,bg=colour234] #I #W "
 set -g window-status-current-format "#[fg=colour234,bg=colour39]⮀#[fg=colour25,bg=colour39,noreverse,bold] #I ⮁ #W #[fg=colour39,bg=colour234,nobold]⮀"
 set -g status-right '#[fg=color39] #H'
+
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-continuum'
+
+set -g @continuum-restore 'on'
+
+run -b '~/.tmux/plugins/tpm/tpm'

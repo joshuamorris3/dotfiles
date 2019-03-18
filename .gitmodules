@@ -1,6 +1,12 @@
 [submodule "bash/bin/z"]
 	path = bash/bin/z
-	url = https://github.com/rupa/z
-[submodule "tmux/plugins/powerline"]
-	path = tmux/plugins/powerline
-	url = git://github.com/erikw/tmux-powerline.git
+  url = https://github.com/rupa/z
+[submodule "tmux/tmux.symlink/plugins/tpm"]
+	path = tmux/tmux.symlink/plugins/tpm
+  url = https://github.com/tmux-plugins/tpm
+[submodule "tmux/tmux.symlink/plugins/tmux-resurrect"]
+	path = tmux/tmux.symlink/plugins/tmux-resurrect
+  url = https://github.com/tmux-plugins/tmux-resurrect
+[submodule "tmux/tmux.symlink/plugins/tmux-continuum"]
+	path = tmux/tmux.symlink/plugins/tmux-continuum
+	url = https://github.com/tmux-plugins/tmux-continuum

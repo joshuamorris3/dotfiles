@@ -59,3 +59,9 @@ work() {
 
   tmux attach -t "$name"
 }
+
+tmux_shutdown() {
+  ~/.tmux/plugins/tmux-resurrect/scripts/save.sh
+
+  tmux list-sessions | awk 'BEGIN{FS=":"}{print $1}' | xargs -n 1 tmux kill-session -t
+}

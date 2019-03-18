@@ -1,5 +1,8 @@
 .DS_Store
 vim/vim.symlink/undo/*
 vim/vim.symlink/bundle/*
+vim/vim.symlink/autosess
 .netrwhist
 git/gitconfig.symlink
+tmux/tmux.symlink/resurrect
+tmux/tmux.symlink/plugins

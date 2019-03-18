@@ -58,7 +58,8 @@ Plugin 'chriskempson/vim-tomorrow-theme'
 " =================================================
 
 " ===================== UI ========================
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 let g:airline_theme             = 'powerlineish'
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#syntastic#enabled = 1
@@ -119,6 +120,11 @@ Plugin 'othree/html5.vim'
 " Other Languages
 Plugin 'mutewinter/nginx.vim'
 Plugin 'acustodioo/vim-tmux'
+Plugin 'jalvesaq/nvim-r'
+
+" Auto Session Save/Restore
+Plugin 'MrQubo/vim-plugin-autosess'
+
 " =================================================
 call vundle#end()
 if bundles_installed == 0
