@@ -84,3 +84,7 @@ done
 
 # Toggle the touch pad off then on. Fixes a current problem with chrome when the touchpad single tap grabs the screen
 alias tt='synclient TouchpadOff=1 && synclient TouchpadOff=0'
+
+# Python
+alias p='python'
+alias p3='python3'
